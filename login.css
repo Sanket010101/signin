@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Glass Antiqua', cursive;
+    background-color: bisque;
+}
+.pinky,a{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: aqua;
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+}
+
+form h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+form label{
+    color:green;
+    font-size: 30px;
+}
+form .paisa{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width:60px;
+    height:30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: whitesmoke;
+}
+#cancle{
+    background-color: yellow;
+}
+form a{
+    text-decoration: none;
+    color: brown;
+}
+.fa-user-secret{
+    position: absolute;
+    top: 62%;
+    left: 1%;
+}
+#user{
+    position: relative;
+}
